@@ -46,7 +46,7 @@ body {
   font-weight: 300;
   color: white;
   text-align: center;
-  padding: 10px 250px;
+  padding: 10px 0px;
 }
 .page a {
   text-decoration: none;
@@ -63,6 +63,7 @@ body {
 }
 .message {
   margin-top: -45px;
+  width: 60vw;
 }
 .social {
   padding-right: 30px;
@@ -77,4 +78,51 @@ body {
 .call {
   font-family: "Roboto", sans-serif;
   padding-left: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  .message {
+    width: 70vw;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .social {
+    padding-right: 0px;
+    margin-bottom: 10%;
+  }
+  .call {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
+  .page h1 {
+    font-size: 22px;
+  }
+  .page p {
+    font-size: 14px;
+  }
+  .contact {
+    padding-top: 80px;
+  }
+  .call a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page h1 {
+    font-size: 20px;
+}
+.page p {
+  font-size: 12px;
+}
+  .contact {
+    padding-top: 5%;
+}
+.social {
+  margin-bottom: O;
+}
 }
