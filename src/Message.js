@@ -2,7 +2,7 @@ import React from "react";
 
 const Message = () => {
   return (
-    <div class="message">
+    <div className="message">
       <h1>Site under construction. We are almost there...</h1>
       <p>
         We are a moving company, we provide all types of services that include
